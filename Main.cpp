@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 	SDL_Init(SDL_INIT_VIDEO);
 
 	// draws window 
-	window = SDL_CreateWindow("SDL2 Test Window", 60,60, 480, 480, SDL_WINDOW_RESIZABLE);
+	window = SDL_CreateWindow("SDL2 Test Window", 60, 60, 480, 480, SDL_WINDOW_RESIZABLE);
 
 	// if window can't be drawn
 	if (window == NULL)
